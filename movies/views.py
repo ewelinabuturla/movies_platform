@@ -18,6 +18,7 @@ from movies.serializer import (
 class MoviesAPIView(APIView):
     """
     API endpoints to manipulate Movies
+    new comment
     """
     http_method_name = ['get', 'post', ]
 
