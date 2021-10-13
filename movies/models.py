@@ -3,6 +3,7 @@ from django.contrib.postgres.fields import JSONField
 from django.db import models
 
 #Create your models here.
+# Another comment
 
 class Movies(models.Model):
     title = models.CharField('Title', max_length=60)
